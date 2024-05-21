@@ -1,0 +1,298 @@
+搜索推荐全面总结
+内部分享网站
+搜推主页 https://cf.jd.com/pages/viewpage.action?pageId=215016043
+商提主页 https://cf.jd.com/pages/viewpage.action?pageId=32741937
+
+搜索算法部主页 https://cf.jd.com/pages/viewpage.action?pageId=176495337
+
+长序列建模（短序列用din 序列太短无法关注到节假日） https://cf.jd.com/pages/viewpage.action?pageId=579350945
+
+搜索排序上线全量review https://cf.jd.com/pages/viewpage.action?pageId=1210255068
+
+搜索
+陈旭松 https://cf.jd.com/pages/viewpage.action?pageId=771399747  主要写行为序列建模
+搜索指标 https://cf.jd.com/pages/viewpage.action?pageId=979097032
+李峰 https://cf.jd.com/pages/viewpage.action?pageId=1145517797
+李新慧 https://cf.jd.com/pages/viewpage.action?pageId=283400125 粗排精排 还有搜索新架构
+吕豪 https://cf.jd.com/pages/viewpage.action?pageId=562526671  多任务
+王彬彬 https://cf.jd.com/pages/viewpage.action?pageId=681738809  召回样本相关
+解书颖 https://cf.jd.com/pages/viewpage.action?pageId=320755468 一些基本推荐模型代码学习
+赵晋媛 https://cf.jd.com/pages/viewpage.action?pageId=1212410448 排序模型
+周至公 https://cf.jd.com/pages/viewpage.action?pageId=1220293244 召回
+
+推荐
+陈梦翔 https://cf.jd.com/pages/viewpage.action?pageId=445466463  很全的召回
+崔宁 https://cf.jd.com/pages/viewpage.action?pageId=378098585 召回
+戴安宇 https://cf.jd.com/display/~daianyu1/2022Q3  召回
+杜朋 https://cf.jd.com/pages/viewpage.action?pageId=1121446602 召回
+韩晴 https://cf.jd.com/pages/viewpage.action?pageId=461168820 召回
+侯林芳https://cf.jd.com/pages/viewpage.action?pageId=372070701 排序
+刘信奇  https://cf.jd.com/pages/viewpage.action?pageId=508424846 召回
+刘占兵 https://cf.jd.com/pages/viewpage.action?pageId=416106783 召回
+李征 https://cf.jd.com/pages/viewpage.action?pageId=443158908 序列建模
+宋冠良 https://cf.jd.com/pages/viewpage.action?pageId=1331463388 关于样本细节
+孙宇晨  https://cf.jd.com/pages/viewpage.action?pageId=1325826551 召回排序模型很多
+推荐系统可解释 https://cf.jd.com/pages/viewpage.action?pageId=1285719161
+徐广 https://cf.jd.com/pages/viewpage.action?pageId=777376682 一堆召回排序文档
+邹罗bao https://cf.jd.com/pages/viewpage.action?pageId=597683675 多样性新颖性
+
+广告
+黄若然 https://cf.jd.com/pages/viewpage.action?pageId=920497636 排序
+李冰 https://cf.jd.com/pages/viewpage.action?pageId=409146816 排序
+王涵民 https://cf.jd.com/display/~wanghanmin1/Re-retrieval+Code+Understanding
+郑向上 https://cf.jd.com/pages/viewpage.action?pageId=1030035244 召回排序
+于谦 https://cf.jd.com/pages/viewpage.action?pageId=627158619  
+赵qing https://cf.jd.com/pages/viewpage.action?pageId=978017550
+
+各种分享
+召回
+https://zhuanlan.zhihu.com/p/468875898  召回双塔从样本->模型 细节特征全面梳理 🌟🌟🌟🌟🌟
+https://zhuanlan.zhihu.com/p/438047408  FaceBook召回分享
+https://www.zhihu.com/question/338044033  为什么排序用pairwise差于pointwise 
+https://zhuanlan.zhihu.com/p/658149546  召回负采样数学相关
+https://www.jianshu.com/p/2f64f49e43cd 召回负采样数学相关
+https://blog.csdn.net/weixin_39285712/article/details/126004822 召回相关
+https://zhuanlan.zhihu.com/p/165064102 负样本构建****
+排序
+https://zhuanlan.zhihu.com/p/57481330 ESMM
+https://zhuanlan.zhihu.com/p/291406172  多任务
+多目标
+https://zhuanlan.zhihu.com/p/547691792
+https://zhuanlan.zhihu.com/p/268359893
+bias
+https://zhuanlan.zhihu.com/p/446977887
+各厂实战
+https://zhuanlan.zhihu.com/p/336628289
+其他
+https://blog.csdn.net/weixin_43982238/article/details/133386024 sample softmax和nce
+https://zhuanlan.zhihu.com/p/322065156  DSSM softmaxloss 其实就是BPR？ 
+https://zhuanlan.zhihu.com/p/319880839 蒸馏
+https://zhuanlan.zhihu.com/p/413240790 阿里全链路优化
+https://zhuanlan.zhihu.com/p/355828527 阿里粗排
+https://www.zhihu.com/people/tttwwy 萧瑟主页
+https://zhuanlan.zhihu.com/p/488497444 算法岗知识整合
+https://zhuanlan.zhihu.com/p/629244638 搜广推前沿
+https://zhuanlan.zhihu.com/p/604360170 阿里非电商搜广推
+https://zhuanlan.zhihu.com/p/604358102 阿里电商搜广推
+https://zhuanlan.zhihu.com/p/336628289  各厂实战
+https://zhuanlan.zhihu.com/p/603997107 咸鱼搜广推
+https://zhuanlan.zhihu.com/p/600346585 蘑菇街搜广推
+https://zhuanlan.zhihu.com/p/592802386 腾讯搜广推
+https://zhuanlan.zhihu.com/p/584805526  美团搜广推
+https://zhuanlan.zhihu.com/p/564820599 搜广推个人心得
+https://zhuanlan.zhihu.com/p/564479089 特征工程全面***
+https://zhuanlan.zhihu.com/p/531954121 搜广推踩坑合集
+https://zhuanlan.zhihu.com/p/531949459 cvr延迟转化
+https://zhuanlan.zhihu.com/p/518353056 线上线下不一致
+https://zhuanlan.zhihu.com/p/518353056 debias
+https://www.zhihu.com/question/622173484/answer/3212679750  ctr有的桶一直负向
+https://www.zhihu.com/question/56781383  广告推荐召回区别
+https://www.zhihu.com/question/548124353 ctr cvr分开建模的原因
+https://www.zhihu.com/question/495024966 排序是否要考虑item之间关系
+https://www.zhihu.com/question/484873738 召回是否要考虑排序目标
+https://www.zhihu.com/question/342390996 concat和pooling哪个好？
+https://www.zhihu.com/question/324986054 正负样本trick
+https://www.zhihu.com/question/269477468 多目标优化的意义
+https://www.zhihu.com/question/619992248 召回未曝光采样负样本再打压？？？
+https://www.zhihu.com/question/422892618 user id怎么用
+https://www.zhihu.com/question/480368311 算力够还需要手动交叉吗？
+https://www.zhihu.com/question/325994502 粗排的作用
+https://www.zhihu.com/question/361641629 新物品冷启动
+https://www.zhihu.com/question/59512815/answer/2576186370 为什么不给每个人都训练模型
+https://www.kemuling.blog/article/Interview-questions 面试题总结
+https://spaces.ac.cn/  科学空间
+https://www.zhihu.com/question/503125372 超长序列建模
+https://www.zhihu.com/question/341529083/answer/1616964921  ctr预估和推荐的关系
+https://zhuanlan.zhihu.com/p/638414676    用listwise做ctr预估
+https://www.zhihu.com/question/622562155/answer/3241211528 attention
+ https://spaces.ac.cn/   苏健林
+ https://www.zhihu.com/people/guo-ting-44-8/posts  播播笔记(推荐算法)
+自己的想法
+许多基于DNN的多任务学习模型对任务之间的数据分布差异和关系等因素很敏感[15，34]。来自任务差异的固有冲突实际上会损害至少一些任务的预测，尤其是当模型参数在所有任务之间广泛共享时。
+mmoe本质上可以理解为 将输入的多层网络进行细粒度的切块，然后针对每一个任务，用不同的softmax层来做attention。而把单层网络切成k块的这个过程（K个专家），并没有影响从底层到expert层输出的结果，本质上也是为了做attention服务的，两者耦合在一起，只有让k个专家拆开，attention才有作用，所以mmoe是一个把全链接网络解耦-再耦合的过程，
+mmoe底层和全连接层没有变化（从N维拆到5个N/5维的向量，视作5个expert）然后针对每个任务，用每个任务独立的softmax层做attention。然后把每个任务的输入再送到各自的层里。效果提升本质上是减少过拟合？
+召回损失同时实际训练过程中，需要除以一个小于1的“温度系数”，主要是拉大loss的值域，否则label为0与label为1最终的loss量级特别小，这些也都算双塔模型老生常谈的实际trick了。
+双塔模型通常使用的都是cos距离，也相当于将最后的emb归一化再內积，主要原因是ANN通常依赖L2距离的， 这与內积学习到的空间向量不等价，需要归一化映射到相同空间。
+感觉业界paiwiseloss 使用BPR loss=log(1+exp(-))更多一样，一方面减少了超参数的调整，另一方面也有不错的物理意义。
+如果user tower 有多个embedding 召回serving的时候怎么做？京东Towards Personalized and Semantic Retrieval: An End-to-End Solution for E-commerce Search via Embedding Learning 提出每个head先retrive出top K 然后所有item一起排序 根据和任意一个head的最大内积进行cut？MIND 线上推理将item和user任意一个兴趣最大的得分作为item和user 兴趣的得分（为什么在训练的时候用attention融合所有兴趣特征，serving的时候用最大得分标准损失了很多信息，因为计算量的问题吗？）
+在CTR预估问题中，历史平均ctr可以作为重要特征加入到模型里面去
+连续特征通常通过分桶形成离散值，防止连续值带来的过拟合（为什么？）和特征分布不均匀问题
+特征通过log进行非线性变换，然后和原来特征一起输入到模型里面，增强模型非线性表达能力
+召回通常使用多路召回，在计算速度和召回率之间进行权衡，但无法考虑不同策略对同一个物品的影响
+基于embedding召回优势在于评分连续性。多路召回不同路不具有可比性，因此无法简单决定每路策略候选集大小。embedding召回用相似度作为指标，可以随意限定召回候选几何集大小
+推荐系统需要特征的实时性，通过流计算平台实现。模型实时性通过增量更新和online learning实现。但是在线学习通过sgd进行训练，很多特征不为0，模型稀疏性差，模型体积大，部署难，参考微软fobos 谷歌ftrl改进
+某些特征可以在客户端更新保存，下次推荐把特征传给服务器
+推荐系统里面，如果优化目标不准确，指标再好也没用
+CTR和CVR预估 ，都是在曝光场景下进行的，所以正样本分别是点击和转化，CTR负样本是曝光未点击，如果CVR用点击未转化作为负样本，则推理空间不一样，所以CVR负样本也用曝光未点击，这也是ESMM模型引入的背景。
+做一个推荐模型，必须考虑业务场景，比如DIEN在阿里有效，是因为阿里购买记录存在着兴趣演化这种过程，并且阿里的日志记录的很详细
+需要仔细观察用户行为，比如在一个视频网站，每一行是一个类别，用户在这个类别下进行鼠标滑动，表示用户对这个类别感兴趣
+DIN并不是因为想用注意力才去用的，而是想手机和用户历史有关的行为记录，发现注意力可以解释这个结构，不能本末倒置
+冷启动简单策略
+基于用户填写的信息，规则决定聚类生成一个列表
+引导用户输入一些类型风格等
+强化学习
+与推荐相比，广告的ctr cvr值更重要（所以要校准） 以为广告预估的ctr还需要经过出价 排名等策略，所以预估值的物理意义比推荐更重要
+hard negative 负样本可以加入一些同类别的其他商品
+当转化行为很稀疏的时候，很难用类似word2vec训练出embedding
+为什么youtube用ex来预估观看时长
+https://blog.csdn.net/tostq/article/details/128454823  
+https://zhuanlan.zhihu.com/p/61827629
+推荐系统比如Youtube/DSSM模型使用(Sampled) Softmax。但经过Negative Sampling之后，同样是针对同一个用户，一个+要配置若干个−，与Pairwise思路类似，本质上是一个paiwise训练 所以pairwise其实不是一个损失的称呼？
+召回样本的长尾分布比排序更严重 冷门商品占比多 所以如果用排序模型 召回样本 会出现给两个毫不相干但是很热的样本打高ctr的情况
+召回是做相关性，如果负样本不对热门样本提升的话，就会让很多冷门样本成为负样本，一直出不来。此外，还会造成高频item进行高估
+相关性和点击率可能又相关性，但是召回排序是两个任务，都很重要，不能说我搜啥都给我热点新闻，点击率高  收益高 但相关性差 长期以来看是有害的
+百度mobuis 模型 召回为什么不能用曝光未点击作为负样本 因为会造成预估训练空间不一致 如果不一致 预测相关性的时候会有偏差 Ctr预估同理 Ctr预估用点击正样本 曝光未点击负样本 这种情况下用ctr模型去做召回 预估和训练空间不一致 使得很多相关性低 ctr高的被召回出来（这种情况下，ctr预估召回是不是ok的 看样子说ctr预估是没有问题的 只是相关性有问题？  可以理解为 现在ctr召回和原来的ctr排序相比 训练样本没有变化，但是推理样本空间变化 所以pctr高的排序 至少是pctr高的召回的子集 所以ctr召回 ctr这个指标没有问题 所以就想去掉一些相关性低的样本 所以有后续模型）
+淘宝2021kdd召回 采用了softmax交叉熵损失函数，而不是hinge pairwise损失函数，因为后者只具备局部比较能力
+不同于推荐中target attention 搜索中历史行为和当前query可能都无关，加了一个全零的向量到用户的行为数据中，来消除潜在噪声和解决用户历史行为和当前query可能完全无关的情况。
+在搜索场景一般行为序列都基于query类目预测进行构造 保证了attention之后的与query还是相关的 如果找不到query类目预测行为序列那就用全0向量填充了
+召回如果有多个目标，一种方案是每个目标训练一个模型，多路召回，但是要多份item索引 消耗内存和计算量，也可以拼接到一起，融合起来召回，但是线上索引也要存多份，线上维度高，计算量大。
+ 粗排不是精排的简化版，不能被精排的替代，二者各司其职，且存在竞争关系，也就是说，链路一致性不能刻意追求完全一致 当且仅当有一个完美的评价指标可以评价粗排输出集合的质量 且精排模型以及后链路都完美的 才不需要考虑一致性
+重要度个人觉得：目标》数据特征》算法模型
+各路召回的打分作为特征，加入到训练ranker的过程中 可以减少rank对新召回的偏见
+senet 这种特征纬度attention 以及shortcut  在召回有用 排序没用
+召回diff率是啥
+用户最后一次点击位置之后的展现可以考虑去掉
+年龄地域特征一般用处不大
+用户长短期行为历史的数据分布差异较大，建模用户短期行为序列的Item Embedding，不宜复用于建模用户长期行为序列。也就是说，同一个物料在用于建模用户长期兴趣与短期兴趣时，应该对应完全不同的Item Embedding。基于同样的原因，如果你想用双塔模型的Item Embedding来进行Soft Search，你的双塔模型最好也拿长期行为序列来训练。如果嫌序列太长，拖慢双塔的速度，可以对长序列进行采样。
+离线方案 就拿用户的UserId检索Redis，得到代表他的长期兴趣的Embedding，喂入推荐主模型
+  想要提升一个指标 可以先看召回 而不是排序 比如，要想提升转发率，你可以新增一路叫"高转发"的召回。先离线统计出每个文章类别下转发率最高的前若干篇文章，存进倒排索引；
+sample softmax 温度系数 放大负样本错误 召回比较精准 但容易失去多样性 小的话多样性丰富 但可能准确率不高
+ 召回loss只关心正样本
+ 针对不同场景 不同用户类型 业界常见的作法是将"场景指示"特征加到离最终目标近一点的地方 减少信息损失
+ 但是，对于对比学习，参数共享是必须的。否则，主模型与对比学习辅助模型，各学各的，主模型中的Bias依旧存在，对比学习学了个寂寞。
+ 觉得推荐场景下的对比学习，不过是向量召回"改头换面"而已。的确
+主任务的训练样本，与对比学习的训练样本，应该来自不同的分布，这一点对模型效果至关重要
+ 长尾分布的特征，直接统计出来的�μ和�σ都会被长尾数据带偏，从而计算出来的z-score区分度下降。解决方法就是对原始数据做开方、取对数等非线性变换，先将原来的长尾分布压缩成接近正态分布，再在变换后的数据调用公式进行z-score标准化，能够取得更好的效果
+ gauc的缺点 没有考虑商品位置信息
+ 推荐系统召回模型对未曝光样本进行负采样会对其进一步打压吗 会 但是不采样的话更严重
+ 新id 训练时，随机初始化预测时，以全零向量代替。
+focal loss 概率越小 loss越大 解决hard negative样本少的问题
+构造CTR样本就是拿曝光日志去join点击日志，无论这这个日志是在批处理平台还是流式计算平台，由于用户点击天然比曝光事件滞后，加上系统本身的延迟，点击日志会比曝光日志晚到，如果按照一个时间戳截断两个日志，会有一些正样本被误认为负样本
+如何根据采样矫正预估ctr
+根据query核心词缺失构造负样本 
+ 应该选择APP的SDK埋点的日志，而不是服务器Web接口返回的日志，因为Web接口返回的日志中的后果是会增加很多无效的负样本。举个例子，Web接口每次返回10条数据，但是APP屏幕最多只能展现3条数据，剩下的7条数据需要用户在feed中滑动屏幕后，才算真正的曝光，但很多用户可能并不会滑动屏幕或者滑动屏幕幅度较小，导致剩下的7条数据并未真正在APP上曝光。
+ 最后说一点关于生成训练样本的方式，尽可能地采用线上模型预测样本时刻的特征作为之后训练样本中的数据，而不是使用离线回溯的方式去拼接训练样本中的各个特征，这就要求当线上模型在预测时，需要将喂给模型的特征做一次落地，比如上传到kafka，后续再由相应程序进行解析生成之后的训练样本。
+ cvr延迟 后续在训练的时候用两个正样本，一个抵消一个训练 或者importance sampling
+ 在给用户下发的一个批次物品中，只保留最后一个有正行为之前的记录 没有转化的session可以删掉
+ 虽然正样本数少，但预估错误带来的损失更大，所以正负样本不平衡并不会对效果带来负向影响。
+EE（兴趣探索）怎么做
+ CTR肯定是需要单独建模的，因为它影响用户的长期的参与度，也影响未来收益。CTCVR低，不代表用户不喜欢，也可能是因为其他原因（比如没钱，这个很容易建模，拿用户过去消费的金额，与当前商品的价格，一比就能知道）
+ ctr cvr ctcvr预估关系
+ 推荐冷启动 时效性
+ 么把用户embedding的更新过程移植到客户端来做，就能够实时地把用户最近的行为数据反应到用户的embedding中来，从而通过实时改变用户embedding的方式完成实时推荐。
+ cvr延迟以更大的weight回刷这个正样本
+ 排序最好不要加召回源特征 首先耦合严重 其次过拟合 排序效果受召回影响严重 必须召回不能出问题 
+ 向量召回、排序没用实时行为序列特征
+统计特征用等宽分桶导致特征值聚集
+召回没做场景适配，比如相关推荐场景还在用猜你喜欢的召回
+多语言搜索召回率低
+有些国家节日多，模型T+1更新导致节日后消费数据下降
+有一些情况下同一用户对不同item的 pctr 是同一个值
+模型目标和业务目标不一致
+Itemid hash 碰撞率太高
+ 排序方案
+排序模型加交叉特征
+排序模型加特征交叉模块
+人群精细化，个性化召回加上一层人群和item标签的匹配，或者热门召回分人群统计
+用户冷起优化
+ FDN模型解决负迁移 Feature Decomposition for Reducing Negative Transfer: A Novel Multi-task Learning Method for Recommender System
+ https://zhuanlan.zhihu.com/p/698600932  魔改网络结构
+
+
+
+
+炼丹经验 https://zhuanlan.zhihu.com/p/367004782
+
+https://github.com/guyulongcs/Awesome-Deep-Learning-Papers-for-Search-Recommendation-Advertising
+
+git搜推广论文*******
+
+魔改loss涨点 https://proceedings.neurips.cc/paper/2018/hash/432aca3a1e345e339f35a30c8f65edce-Abstract.html
+https://www.zhihu.com/question/375794498/answer/2307552166
+
+Efficient Long Sequential User Data Modeling for Click-Through Rate Predictio 阿里超长序列
+论文简单总结（方便看）
+召回
+https://www.zhihu.com/question/425134184/answer/2748300274  DSSM
+https://zhuanlan.zhihu.com/p/52169807  youyube DNN
+https://zhuanlan.zhihu.com/p/99629077 阿里mind模型
+https://zhuanlan.zhihu.com/p/517951249
+https://zhuanlan.zhihu.com/p/144765227 百度mobuis
+https://zhuanlan.zhihu.com/p/152570715 FACEbook retriving
+https://blog.csdn.net/Kaiyuan_sjtu/article/details/121528929 京东2020sirir个性化召回 仅仅考虑相关性往往是不够的。尤其在候选量很大、计算资源有限的情况下，我们更希望优先召回高成交率的商品。 和百度mobuis一样
+https://zhuanlan.zhihu.com/p/409390150淘宝2020kdd 向量化召回
+https://zhuanlan.zhihu.com/p/655366921  淘宝搜索2022个性化召回moppr zzx出品
+https://zhuanlan.zhihu.com/p/186320100 cold 2022全链路优化
+https://zhuanlan.zhihu.com/p/642662870  zzx粗排优化 2022
+排序
+https://zhuanlan.zhihu.com/p/648572952 wide and deep
+https://zhuanlan.zhihu.com/p/481349442?utm_id=0  DIN
+https://blog.csdn.net/zhaozhiwei314/article/details/123216275 DIEN
+https://zhuanlan.zhihu.com/p/464948008 DSIN
+https://zhuanlan.zhihu.com/p/362097298  阿里长序列
+https://zhuanlan.zhihu.com/p/137034216 阿里搜索transformer
+https://zhuanlan.zhihu.com/p/72607641 2019年facebook排序
+https://zhuanlan.zhihu.com/p/362774058 腾讯lookalike
+https://zhuanlan.zhihu.com/p/343097091 2020 airbnb搜索排序
+https://zhuanlan.zhihu.com/p/266715978 dhan阿里排序
+https://blog.csdn.net/m0_37477175/article/details/106590883  百度CAN多模态排序
+https://blog.csdn.net/whgyxy/article/details/126023948 京东2020DMT模型
+https://zhuanlan.zhihu.com/p/242041834 京东2020多层次排序模型
+https://zhuanlan.zhihu.com/p/543243471 阿里妈妈2021 多场景star 预估
+https://zhuanlan.zhihu.com/p/533822662 阿里2022上下文反馈
+https://zhuanlan.zhihu.com/p/518869688  阿里2022 DIHN 诱发推荐模型
+https://zhuanlan.zhihu.com/p/538682575 京东2022 隐式感知建模
+https://zhuanlan.zhihu.com/p/525604184 美团2022 长序列采样
+https://zhuanlan.zhihu.com/p/606047328?utm_id=0 快手2023 终身序列建模
+https://zhuanlan.zhihu.com/p/611532716?utm_id=0 快手2023多场景多任务建模
+https://zhuanlan.zhihu.com/p/555757996  腾讯2022最新双塔
+https://zhuanlan.zhihu.com/p/457750351 美团2021多任务
+Entire Space Learning Framework: Unbias Conversion Rate Prediction in Full Stages of Recommender System 阿里2023 全空间无偏学习
+eficient Long Sequential User Data Modeling for Click-Through
+Rate Predictio
+
+自己总结
+
+
+
+
+
+
+
+        
+
+            
+
+                
+
+                    
+
+                   
+
+                    
+
+                
+
+            
+
+        
+
+        
+
+            
+
+                
+
+                    
+
+                        
+Eff  
+
+                    
+
+                
+
+            
+
+        
+
